@@ -1,0 +1,16 @@
+class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("enter a number");
+            int number = int.Parse(Console.ReadLine());
+            int fact = number;
+            for (int i = number-1; i >=1; i--)
+            {
+                fact = fact * i;
+            }
+            Console.WriteLine("the factorial of number is:"+fact);
+            Console.Read();
+        }
+      
+    }
